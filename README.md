@@ -1,15 +1,15 @@
-# Watt’s the Difference? Electron vs. Web: A Comparative Analysis of Energy and Performance in Communication Apps
+# Electron vs. Web: A Comparative Analysis of Energy and Performance in Communication Apps
 
-This repository serves as a supplementary page for the associated paper "Watt’s the Difference? Electron vs. Web: A Comparative Analysis of Energy and Performance in Communication Apps", created to conduct the an empirical experimentation as apart of Green Lab(X_418158) class 2023/2024 semester project at VU(Vrije Universiteit Amsterdam).
+This repository contains the replication package of the study "Electron vs. Web: A Comparative Analysis of Energy and Performance in Communication Apps" presented at QUATIC 2024.
 
 This research aims to thoroughly analyze apps like Skype, Discord, and Slack that use Electron technology, comparing them to their web-based versions. The goal is to measure how much energy and computing resources they consume, focusing on performance. By doing this, we want to give regular users and companies solid information to make environmentally friendly software decisions.
 
 Accordingly, This repository is devided into three main parts: 
-- The Browse experiment (`Browser` folder) 
+- The Browser experiment (`Browser` folder) 
 - The Electron experiment (`Electron` folder)
-- The Utility which is used by both section of the experiment (`Utility` folder).
+- The Utility, which is used by both sections of the experiment (`Utility` folder).
 
-## Prerequisite
+## Prerequisites
 
 1. Make sure you have Python in your system if not download it [here](https://www.python.org/downloads/)
 
@@ -69,7 +69,7 @@ You can also find more information about this experiment in action from this cli
 
 
 ## Data-Analysis
-The "green-analysis" directory consists of a R project for data-analysis of experiment data.
+The "green-analysis" directory consists of an R project for analyzing the experiment data.
 
 #### Folder structure
   - __preprocessing__
